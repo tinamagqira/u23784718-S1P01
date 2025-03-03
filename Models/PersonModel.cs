@@ -1,10 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations; 
 
-namespace u23784718_Prac1.Models
+namespace u23784718_S1P01.Models
 {
     public class PersonModel
     {
-        public global::System.Int32 MyProperty { get; set; }
       
 
         [Display(Name = "First Name")] 
@@ -18,5 +17,6 @@ namespace u23784718_Prac1.Models
 
         [Display(Name = "Email Address")] 
         public string EmailAddress { get; set; }
+        public int StudentNumber { get; internal set; }
     }
 }

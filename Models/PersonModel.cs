@@ -17,6 +17,13 @@ namespace u23784718_S1P01.Models
 
         [Display(Name = "Email Address")] 
         public string EmailAddress { get; set; }
+
+        [Display(Name = "Student Number")]
         public int StudentNumber { get; internal set; }
+
+        [Display(Name ="Link to personal page")]
+        public string MyLink { get; set; }
+
+
     }
 }

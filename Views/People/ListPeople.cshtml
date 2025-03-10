@@ -6,7 +6,9 @@
     ViewBag.Title = "List of People";
 }
 
+
 <h2>List of People</h2>
+
 
 
 <table class="table">
@@ -23,10 +25,13 @@
         <th>
             @Html.DisplayNameFor(model => model.EmailAddress)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MyLink)
+        </th>
         <th></th>
     </tr>
 
-    @foreach (var item in Model) //For each person 
+    @foreach (var item in Model) //For each person
     {
         <tr>
             <td>
@@ -41,7 +46,10 @@
             <td>
                 @Html.DisplayFor(modelItem => item.EmailAddress)
             </td>
-           
+            <td>
+                <a href=" @Url.Content(item.MyLink)">LINK</a>
+            </td>
+
         </tr>
     }
 

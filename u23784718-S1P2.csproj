@@ -146,6 +146,17 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML\Chrystilla.html" />
+    <Content Include="HTML\Experience.html" />
+    <Content Include="HTML\Images\download %281%29.jpeg" />
+    <Content Include="HTML\Images\download %282%29.jpeg" />
+    <Content Include="HTML\Images\download %283%29.jpeg" />
+    <Content Include="HTML\Images\download.jpeg" />
+    <Content Include="HTML\Images\images.jpeg" />
+    <Content Include="HTML\Images\WhatsApp Image 2023-08-20 at 14.04.41_8e26f6fc.jpg" />
+    <Content Include="HTML\Iviwe.html" />
+    <Content Include="HTML\Sivuyisile.html" />
+    <Content Include="HTML\Tina.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

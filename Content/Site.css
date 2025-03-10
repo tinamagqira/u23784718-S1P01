@@ -18,3 +18,70 @@ select,
 textarea {
     max-width: 280px;
 }
+body {
+    background-color:bisque
+}
+.main-content {
+    background-color: beige;
+    padding: 40px 20px 40px 20px; 
+    
+
+}
+.Links {
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    
+}
+.Links div {
+    border-right: solid grey 1px;
+    flex: auto;
+    padding: 20px
+    
+}
+.body{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.active{
+    background-color:green;
+}
+.row {
+    border: solid green 1px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+.row img {
+    float: left;
+}
+.row img, .row p {
+    height: 200px;
+}
+.row img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+  .row table {
+       float: left;
+    }
+.table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.th {
+    background-color: #f2f2f2;
+}
